@@ -1,0 +1,180 @@
+INFO - Before navigating to: 'http://newtours.demoaut.com/'
+INFO - Navigated to:'http://newtours.demoaut.com/'
+INFO - Mercury Tours title Validate
+INFO - Your are in  Mercury Tours
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/nav/logo.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/nav/logo.gif']
+INFO - Your are In Mercury Tours Login Page
+INFO - Trying to find Element By : By.name: userName
+INFO - Found Element By : By.name: userName
+INFO - Trying to find Element By : By.name: password
+INFO - Found Element By : By.name: password
+INFO - Trying to find Element By : By.name: login
+INFO - Found Element By : By.name: login
+INFO - UserName gopu12 Password My$tyle@1996Send
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/masts/mast_flightfinder.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/masts/mast_flightfinder.gif']
+INFO - Your are In Mercury Tours Flight Reservation Page
+INFO - Trying to find Element By : By.name: passCount
+INFO - Found Element By : By.name: passCount
+INFO - Trying to find Element By : By.xpath: .//option[@value = "2"]
+INFO - Found Element By : By.xpath: .//option[@value = "2"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: passCount]] -> xpath: .//option[@value = "2"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: passCount]] -> xpath: .//option[@value = "2"]]
+INFO - Trying to find Element By : By.name: fromPort
+INFO - Found Element By : By.name: fromPort
+INFO - Trying to find Element By : By.xpath: .//option[@value = "London"]
+INFO - Found Element By : By.xpath: .//option[@value = "London"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: fromPort]] -> xpath: .//option[@value = "London"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: fromPort]] -> xpath: .//option[@value = "London"]]
+INFO - Trying to find Element By : By.name: fromMonth
+INFO - Found Element By : By.name: fromMonth
+INFO - Trying to find Element By : By.xpath: .//option[@value = "8"]
+INFO - Found Element By : By.xpath: .//option[@value = "8"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: fromMonth]] -> xpath: .//option[@value = "8"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: fromMonth]] -> xpath: .//option[@value = "8"]]
+INFO - Trying to find Element By : By.name: fromDay
+INFO - Found Element By : By.name: fromDay
+INFO - Trying to find Element By : By.xpath: .//option[@value = "10"]
+INFO - Found Element By : By.xpath: .//option[@value = "10"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: fromDay]] -> xpath: .//option[@value = "10"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: fromDay]] -> xpath: .//option[@value = "10"]]
+INFO - Trying to find Element By : By.name: toPort
+INFO - Found Element By : By.name: toPort
+INFO - Trying to find Element By : By.xpath: .//option[@value = "Portland"]
+INFO - Found Element By : By.xpath: .//option[@value = "Portland"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: toPort]] -> xpath: .//option[@value = "Portland"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: toPort]] -> xpath: .//option[@value = "Portland"]]
+INFO - Trying to find Element By : By.name: toMonth
+INFO - Found Element By : By.name: toMonth
+INFO - Trying to find Element By : By.xpath: .//option[@value = "10"]
+INFO - Found Element By : By.xpath: .//option[@value = "10"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: toMonth]] -> xpath: .//option[@value = "10"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: toMonth]] -> xpath: .//option[@value = "10"]]
+INFO - Trying to find Element By : By.name: toDay
+INFO - Found Element By : By.name: toDay
+INFO - Trying to find Element By : By.xpath: .//option[@value = "10"]
+INFO - Found Element By : By.xpath: .//option[@value = "10"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: toDay]] -> xpath: .//option[@value = "10"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: toDay]] -> xpath: .//option[@value = "10"]]
+INFO - Trying to find Element By : By.name: servClass
+INFO - Found Element By : By.name: servClass
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: servClass]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: servClass]
+INFO - Trying to find Element By : By.name: airline
+INFO - Found Element By : By.name: airline
+INFO - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "Unified Airlines"]
+INFO - Found Element By : By.xpath: .//option[normalize-space(.) = "Unified Airlines"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: airline]] -> xpath: .//option[normalize-space(.) = "Unified Airlines"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: airline]] -> xpath: .//option[normalize-space(.) = "Unified Airlines"]]
+INFO - Trying to find Element By : By.name: findFlights
+INFO - Found Element By : By.name: findFlights
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: findFlights]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: findFlights]
+INFO - Flight information Data Send
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/masts/mast_selectflight.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/masts/mast_selectflight.gif']
+INFO - Your are  In Mercury Tours select Flight Page
+INFO - Trying to find Element By : By.cssSelector: td[class='frame_action_xrows'] input
+INFO - Found Element By : By.cssSelector: td[class='frame_action_xrows'] input
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: td[class='frame_action_xrows'] input]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: td[class='frame_action_xrows'] input]
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: td[class='frame_action_xrows'] input]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: td[class='frame_action_xrows'] input]
+INFO - Trying to find Element By : By.name: reserveFlights
+INFO - Found Element By : By.name: reserveFlights
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: reserveFlights]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: reserveFlights]
+INFO - Flight Name  Data Send
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/masts/mast_book.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/masts/mast_book.gif']
+INFO - Your are  In Mercury Tours Flight Purchase Page
+INFO - Trying to find Element By : By.xpath: //b[contains(text(),'$1197')]
+INFO - Found Element By : By.xpath: //b[contains(text(),'$1197')]
+INFO - Ticket Price Validated $1197
+INFO - Trying to find Element By : By.name: passFirst0
+INFO - Found Element By : By.name: passFirst0
+INFO - Trying to find Element By : By.name: passLast0
+INFO - Found Element By : By.name: passLast0
+INFO - Trying to find Element By : By.name: pass.0.meal
+INFO - Found Element By : By.name: pass.0.meal
+INFO - Trying to find Element By : By.xpath: .//option[@value = "HNML"]
+INFO - Found Element By : By.xpath: .//option[@value = "HNML"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: pass.0.meal]] -> xpath: .//option[@value = "HNML"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: pass.0.meal]] -> xpath: .//option[@value = "HNML"]]
+INFO - Trying to find Element By : By.name: passFirst1
+INFO - Found Element By : By.name: passFirst1
+INFO - Trying to find Element By : By.name: passLast1
+INFO - Found Element By : By.name: passLast1
+INFO - Trying to find Element By : By.name: pass.1.meal
+INFO - Found Element By : By.name: pass.1.meal
+INFO - Trying to find Element By : By.name: pass.1.meal
+INFO - Found Element By : By.name: pass.1.meal
+INFO - Trying to find Element By : By.name: pass.1.meal
+INFO - Found Element By : By.name: pass.1.meal
+INFO - Trying to find Element By : By.xpath: .//option[@value = "VGML"]
+INFO - Found Element By : By.xpath: .//option[@value = "VGML"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: pass.1.meal]] -> xpath: .//option[@value = "VGML"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: pass.1.meal]] -> xpath: .//option[@value = "VGML"]]
+INFO - Trying to find Element By : By.name: creditCard
+INFO - Found Element By : By.name: creditCard
+INFO - Trying to find Element By : By.xpath: .//option[@value = "BA"]
+INFO - Found Element By : By.xpath: .//option[@value = "BA"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: creditCard]] -> xpath: .//option[@value = "BA"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: creditCard]] -> xpath: .//option[@value = "BA"]]
+INFO - Trying to find Element By : By.name: creditnumber
+INFO - Found Element By : By.name: creditnumber
+INFO - Trying to find Element By : By.name: cc_exp_dt_mn
+INFO - Found Element By : By.name: cc_exp_dt_mn
+INFO - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "12"]
+INFO - Found Element By : By.xpath: .//option[normalize-space(.) = "12"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: cc_exp_dt_mn]] -> xpath: .//option[normalize-space(.) = "12"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: cc_exp_dt_mn]] -> xpath: .//option[normalize-space(.) = "12"]]
+INFO - Trying to find Element By : By.name: cc_exp_dt_yr
+INFO - Found Element By : By.name: cc_exp_dt_yr
+INFO - Trying to find Element By : By.xpath: .//option[normalize-space(.) = "2010"]
+INFO - Found Element By : By.xpath: .//option[normalize-space(.) = "2010"]
+INFO - Trying to click on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: cc_exp_dt_yr]] -> xpath: .//option[normalize-space(.) = "2010"]]
+INFO - Clicked on: [[[[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> name: cc_exp_dt_yr]] -> xpath: .//option[normalize-space(.) = "2010"]]
+INFO - Trying to find Element By : By.name: cc_frst_name
+INFO - Found Element By : By.name: cc_frst_name
+INFO - Trying to find Element By : By.name: cc_mid_name
+INFO - Found Element By : By.name: cc_mid_name
+INFO - Trying to find Element By : By.name: cc_last_name
+INFO - Found Element By : By.name: cc_last_name
+INFO - Trying to find Element By : By.name: billAddress1
+INFO - Found Element By : By.name: billAddress1
+INFO - Trying to find Element By : By.name: billCity
+INFO - Found Element By : By.name: billCity
+INFO - Trying to find Element By : By.name: billState
+INFO - Found Element By : By.name: billState
+INFO - Trying to find Element By : By.name: billZip
+INFO - Found Element By : By.name: billZip
+INFO - Trying to find Element By : By.name: delAddress1
+INFO - Found Element By : By.name: delAddress1
+INFO - Trying to find Element By : By.name: delCity
+INFO - Found Element By : By.name: delCity
+INFO - Trying to find Element By : By.name: delState
+INFO - Found Element By : By.name: delState
+INFO - Trying to find Element By : By.name: delZip
+INFO - Found Element By : By.name: delZip
+INFO - Trying to find Element By : By.cssSelector: input[type='image']
+INFO - Found Element By : By.cssSelector: input[type='image']
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: input[type='image']]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: input[type='image']]
+INFO - Customer Information data send
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/masts/mast_confirmation.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/masts/mast_confirmation.gif']
+INFO - Your are In Mercury Tours Flight confirmation Page
+INFO - Trying to find Element By : By.xpath: //b
+INFO - Found Element By : By.xpath: //b
+INFO - Booking Toast Message Validated Your itinerary has been booked!
+INFO - Ticket Total Price Validated $1197 USD
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/forms/Logout.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/forms/Logout.gif']
+INFO - Trying to click on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: img[src='/images/forms/Logout.gif']]
+INFO - Clicked on: [[ChromeDriver: chrome on XP (010df4ec60541448e38ae09ee006b7b7)] -> css selector: img[src='/images/forms/Logout.gif']]
+INFO - Trying to find Element By : By.cssSelector: img[src='/images/masts/mast_signon.gif']
+INFO - Found Element By : By.cssSelector: img[src='/images/masts/mast_signon.gif']
+INFO - Your are  In Mercury Tours Sing Up Page
+INFO - Pass ScreenShot taken

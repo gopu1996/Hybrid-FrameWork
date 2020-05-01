@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Suite">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Suite">
+                    <span>C:\kalinga\planB\SELENIUM_PROJECT\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Suite">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Suite">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Suite">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Suite">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Suite">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Suite">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">5 methods,   5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.org.qa.testdata.TestData" hash-for-method="flightConfirmationTest(http://newtours.demoaut.com/images/masts/mast_confirmation.gif, Your itinerary has been booked!, $11...)">flightConfirmationTest(http://newtours.demoaut.com/images/masts/mast_confirmation.gif, Your itinerary has been booked!, $11...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.org.qa.testdata.TestData" hash-for-method="flightPurchaseTest(http://newtours.demoaut.com/images/masts/mast_book.gif, $1197, Gopal, Pandey, HNML, Gopu, cr7, VGML,...)">flightPurchaseTest(http://newtours.demoaut.com/images/masts/mast_book.gif, $1197, Gopal, Pandey, HNML, Gopu, cr7, VGML,...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.org.qa.testdata.TestData" hash-for-method="flightReservationTest(http://newtours.demoaut.com/images/masts/mast_flightfinder.gif, 2, London, 8, 10, Portland, 10, 10, ...)">flightReservationTest(http://newtours.demoaut.com/images/masts/mast_flightfinder.gif, 2, London, 8, 10, Portland, 10, 10, ...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.org.qa.testdata.TestData" hash-for-method="loginToMercuryTours">loginToMercuryTours</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Suite" title="com.org.qa.testdata.TestData" hash-for-method="searchFlightTest(http://newtours.demoaut.com/images/masts/mast_selectflight.gif, Blue Skies Airlines$361$271$7:10, Pa...)">searchFlightTest(http://newtours.demoaut.com/images/masts/mast_selectflight.gif, Blue Skies Airlines$361$271$7:10, Pa...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.org.qa.testdata.TestData</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightConfirmationTest(http://newtours.demoaut.com/images/masts/mast_confirmation.gif, Your itinerary has been booked!, $11...)">
+                  </a> <!-- flightConfirmationTest(http://newtours.demoaut.com/images/masts/mast_confirmation.gif, Your itinerary has been booked!, $11...) -->
+                  <span class="method-name">flightConfirmationTest</span>
+                  <span class="parameters">(http://newtours.demoaut.com/images/masts/mast_confirmation.gif, Your itinerary has been booked!, $1197 USD, http://newtours.demoaut.com/images/masts/mast_signon.gif)</span>
+                  <em>
+(Description: Testing if user is able to get confirmation of flight and logout user should able to see signup page to Mecrcury Tours)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightPurchaseTest(http://newtours.demoaut.com/images/masts/mast_book.gif, $1197, Gopal, Pandey, HNML, Gopu, cr7, VGML,...)">
+                  </a> <!-- flightPurchaseTest(http://newtours.demoaut.com/images/masts/mast_book.gif, $1197, Gopal, Pandey, HNML, Gopu, cr7, VGML,...) -->
+                  <span class="method-name">flightPurchaseTest</span>
+                  <span class="parameters">(http://newtours.demoaut.com/images/masts/mast_book.gif, $1197, Gopal, Pandey, HNML, Gopu, cr7, VGML, BA, 9876543210, 12, 2010, Gopal, cr7, pandey, abc road xyz place, Banglore, Karnataka, 223422, abc road xyz place, Banglore, Karnataka, 223422)</span>
+                  <em>
+(Description: Testing if user is able to Book a flight to Mecrcury Tours)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="flightReservationTest(http://newtours.demoaut.com/images/masts/mast_flightfinder.gif, 2, London, 8, 10, Portland, 10, 10, ...)">
+                  </a> <!-- flightReservationTest(http://newtours.demoaut.com/images/masts/mast_flightfinder.gif, 2, London, 8, 10, Portland, 10, 10, ...) -->
+                  <span class="method-name">flightReservationTest</span>
+                  <span class="parameters">(http://newtours.demoaut.com/images/masts/mast_flightfinder.gif, 2, London, 8, 10, Portland, 10, 10, First, Unified Airlines)</span>
+                  <em>
+(Description: Testing if user is able to fill flight data to Mecrcury Tours)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginToMercuryTours">
+                  </a> <!-- loginToMercuryTours -->
+                  <span class="method-name">loginToMercuryTours</span>
+                  <em>
+(Description: Testing if user is able to login to Mecrcury Tours)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchFlightTest(http://newtours.demoaut.com/images/masts/mast_selectflight.gif, Blue Skies Airlines$361$271$7:10, Pa...)">
+                  </a> <!-- searchFlightTest(http://newtours.demoaut.com/images/masts/mast_selectflight.gif, Blue Skies Airlines$361$271$7:10, Pa...) -->
+                  <span class="method-name">searchFlightTest</span>
+                  <span class="parameters">(http://newtours.demoaut.com/images/masts/mast_selectflight.gif, Blue Skies Airlines$361$271$7:10, Pangea Airlines$632$282$16:37)</span>
+                  <em>
+(Description: Testing if user is able to select a flight to Mecrcury Tours)                  </em>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\kalinga\planB\SELENIUM_PROJECT\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;Suite&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Mercury Tours Flight Booking&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.org.qa.testdata.TestData&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Mercury Tours Flight Booking --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Mercury Tours Flight Booking (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(5);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'loginToMercuryTours')
+data.setCell(0, 2, 'com.org.qa.testdata.TestData')
+data.setCell(0, 3, 7951);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'flightPurchaseTest')
+data.setCell(1, 2, 'com.org.qa.testdata.TestData')
+data.setCell(1, 3, 6868);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'flightReservationTest')
+data.setCell(2, 2, 'com.org.qa.testdata.TestData')
+data.setCell(2, 3, 2464);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'flightConfirmationTest')
+data.setCell(3, 2, 'com.org.qa.testdata.TestData')
+data.setCell(3, 3, 2026);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'searchFlightTest')
+data.setCell(4, 2, 'com.org.qa.testdata.TestData')
+data.setCell(4, 3, 1952);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 21 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.org.qa.testdata.TestData</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">loginToMercuryTours</span>
+                <span class="method-start">7247 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightReservationTest(http://newtours.demoaut.com/images/masts/mast_flightfinder.gif, 2, London, 8, 10, Portland, 10, 10, ...)</span>
+                <span class="method-start">15651 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">searchFlightTest(http://newtours.demoaut.com/images/masts/mast_selectflight.gif, Blue Skies Airlines$361$271$7:10, Pa...)</span>
+                <span class="method-start">18142 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightPurchaseTest(http://newtours.demoaut.com/images/masts/mast_book.gif, $1197, Gopal, Pandey, HNML, Gopu, cr7, VGML,...)</span>
+                <span class="method-start">20121 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">flightConfirmationTest(http://newtours.demoaut.com/images/masts/mast_confirmation.gif, Your itinerary has been booked!, $11...)</span>
+                <span class="method-start">26998 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29029 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

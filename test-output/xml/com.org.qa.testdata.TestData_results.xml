@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Mercury Tours Flight Booking"
+           tests="5"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="21.261">
+  <properties />
+  
+  
+            <testcase name="flightReservationTest" time="2.464" classname="com.org.qa.testdata.TestData" />
+                <testcase name="flightPurchaseTest" time="6.868" classname="com.org.qa.testdata.TestData" />
+                <testcase name="loginToMercuryTours" time="7.951" classname="com.org.qa.testdata.TestData" />
+                <testcase name="searchFlightTest" time="1.952" classname="com.org.qa.testdata.TestData" />
+                <testcase name="flightConfirmationTest" time="2.026" classname="com.org.qa.testdata.TestData" />
+      
+</testsuite>

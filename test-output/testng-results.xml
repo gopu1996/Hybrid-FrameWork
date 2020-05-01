@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="35479" started-at="2020-05-01T19:02:39 IST" finished-at="2020-05-01T19:03:14 IST">
+    <groups>
+    </groups>
+    <test name="Mercury Tours Flight Booking" duration-ms="35479" started-at="2020-05-01T19:02:39 IST" finished-at="2020-05-01T19:03:14 IST">
+      <class name="com.org.qa.testdata.TestData">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.org.qa.testdata.TestData@4b9e255]" name="setUp" is-config="true" duration-ms="7211" started-at="2020-05-01T19:02:39 IST" finished-at="2020-05-01T19:02:46 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToMercuryTours()[pri:1, instance:com.org.qa.testdata.TestData@4b9e255]" name="loginToMercuryTours" duration-ms="7951" started-at="2020-05-01T19:02:46 IST" description="Description: Testing if user is able to login to Mecrcury Tours" finished-at="2020-05-01T19:02:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToMercuryTours -->
+        <test-method name="flightReservationTest" signature="flightReservationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:com.org.qa.testdata.TestData@4b9e255]" status="PASS" duration-ms="2464" finished-at="2020-05-01T19:02:57 IST" started-at="2020-05-01T19:02:54 IST" depends-on-methods="com.org.qa.testdata.TestData.loginToMercuryTours" data-provider="fligtReservationData" description="Description: Testing if user is able to fill flight data to Mecrcury Tours">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/images/masts/mast_flightfinder.gif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[London]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[8]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Portland]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[First]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[Unified Airlines]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightReservationTest -->
+        <test-method name="searchFlightTest" signature="searchFlightTest(java.lang.String, java.lang.String, java.lang.String)[pri:3, instance:com.org.qa.testdata.TestData@4b9e255]" status="PASS" duration-ms="1952" finished-at="2020-05-01T19:02:59 IST" started-at="2020-05-01T19:02:57 IST" depends-on-methods="com.org.qa.testdata.TestData.flightReservationTest" data-provider="fligtSearchData" description="Description: Testing if user is able to select a flight to Mecrcury Tours">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/images/masts/mast_selectflight.gif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Blue Skies Airlines$361$271$7:10]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Pangea Airlines$632$282$16:37]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchFlightTest -->
+        <test-method name="flightPurchaseTest" signature="flightPurchaseTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:4, instance:com.org.qa.testdata.TestData@4b9e255]" status="PASS" duration-ms="6868" finished-at="2020-05-01T19:03:06 IST" started-at="2020-05-01T19:02:59 IST" depends-on-methods="com.org.qa.testdata.TestData.searchFlightTest" data-provider="fligtTicketPurchaseData" description="Description: Testing if user is able to Book a flight to Mecrcury Tours">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/images/masts/mast_book.gif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[$1197]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Gopal]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Pandey]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[HNML]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[Gopu]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[cr7]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[VGML]]>
+              </value>
+            </param>
+            <param index="8">
+              <value>
+                <![CDATA[BA]]>
+              </value>
+            </param>
+            <param index="9">
+              <value>
+                <![CDATA[9876543210]]>
+              </value>
+            </param>
+            <param index="10">
+              <value>
+                <![CDATA[12]]>
+              </value>
+            </param>
+            <param index="11">
+              <value>
+                <![CDATA[2010]]>
+              </value>
+            </param>
+            <param index="12">
+              <value>
+                <![CDATA[Gopal]]>
+              </value>
+            </param>
+            <param index="13">
+              <value>
+                <![CDATA[cr7]]>
+              </value>
+            </param>
+            <param index="14">
+              <value>
+                <![CDATA[pandey]]>
+              </value>
+            </param>
+            <param index="15">
+              <value>
+                <![CDATA[abc road xyz place]]>
+              </value>
+            </param>
+            <param index="16">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+            <param index="17">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="18">
+              <value>
+                <![CDATA[223422]]>
+              </value>
+            </param>
+            <param index="19">
+              <value>
+                <![CDATA[abc road xyz place]]>
+              </value>
+            </param>
+            <param index="20">
+              <value>
+                <![CDATA[Banglore]]>
+              </value>
+            </param>
+            <param index="21">
+              <value>
+                <![CDATA[Karnataka]]>
+              </value>
+            </param>
+            <param index="22">
+              <value>
+                <![CDATA[223422]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightPurchaseTest -->
+        <test-method name="flightConfirmationTest" signature="flightConfirmationTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:5, instance:com.org.qa.testdata.TestData@4b9e255]" status="PASS" duration-ms="2026" finished-at="2020-05-01T19:03:08 IST" started-at="2020-05-01T19:03:06 IST" depends-on-methods="com.org.qa.testdata.TestData.flightPurchaseTest" data-provider="flightConfirmation" description="Description: Testing if user is able to get confirmation of flight and logout user should able to see signup page to Mecrcury Tours">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/images/masts/mast_confirmation.gif]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Your itinerary has been booked!]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[$1197 USD]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://newtours.demoaut.com/images/masts/mast_signon.gif]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flightConfirmationTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.org.qa.testdata.TestData@4b9e255]" name="tearDown" is-config="true" duration-ms="6439" started-at="2020-05-01T19:03:08 IST" finished-at="2020-05-01T19:03:14 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.org.qa.testdata.TestData -->
+    </test> <!-- Mercury Tours Flight Booking -->
+  </suite> <!-- Suite -->
+</testng-results>
