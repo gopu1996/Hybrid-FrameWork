@@ -75,12 +75,7 @@ public class FlightReservationPage {
 			String departingDates, String arrivingPlaces, String returnMonths, String returnDates, String classValue,
 			String airlineLists) {
 
-		System.out.println(arrivingPlaces + "" + numberOfPassenger);
-		if (CommonMethod.selectByValue(numberOfPassenger, Passenger)) {
-			System.out.println("value send");
-		} else {
-			System.out.println("value not send");
-		}
+		CommonMethod.selectByValue(numberOfPassenger, Passenger)
 		CommonMethod.selectByValue(departPlace, departingPlace);
 		CommonMethod.selectByValue(departMonth, departMonths);
 		CommonMethod.selectByValue(departingDate, departingDates);
