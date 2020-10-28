@@ -49,4 +49,27 @@ public class ReadFromExcel {
 		return null;
 
 	}
+//---------------------------------------------Reading a excel store in a map ------------------------------------------------------//
+// 		public static Map<String,  Map<String, Object>> setMapData(String path) throws IOException {
+// 		FileInputStream fis = new FileInputStream(path);
+// 		Workbook workbook = new HSSFWorkbook(fis);
+// 		Sheet sheet = workbook.getSheetAt(0);
+// 		Map<String, Map<String, Object>> excelFileMap = new HashMap<String, Map<String,Object>>();
+// 		Map<String, Object> dataMap = new HashMap<String, Object>();
+// 		DataFormatter formatter = new DataFormatter();
+// 		  int rowCount = sheet.getLastRowNum(); 
+// 		    for(int i=1;i<=rowCount;i++){
+// 		        Row row = sheet.getRow(0);
+// 		        for(int j=0;j<row.getLastCellNum();j++) {
+// 		            String key=row.getCell(j).getStringCellValue();
+// 		            Object value= formatter.formatCellValue(sheet.getRow(i).getCell(j));
+// 				    dataMap.put(key, value);
+// 		        }
+// 		    	excelFileMap.put("DataSheet", dataMap);
+// 		    }
+// 		return excelFileMap;
+// 		}
+// 	 Map<String, Object> m = ReadFromExcel.setMapData(path).get("DataSheet");  
+//---------------------------------------------Reading a excel store in a map ------------------------------------------------------//
+
 }
