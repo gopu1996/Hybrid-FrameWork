@@ -50,12 +50,26 @@ public class ReadFromExcel {
 
 	}
 //---------------------------------------------Reading a excel store in a map ------------------------------------------------------//
-// 		public static Map<String,  Map<String, Object>> setMapData(String path) throws IOException {
-// 		FileInputStream fis = new FileInputStream(path);
-// 		Workbook workbook = new HSSFWorkbook(fis);
-// 		Sheet sheet = workbook.getSheetAt(0);
-// 		Map<String, Map<String, Object>> excelFileMap = new HashMap<String, Map<String,Object>>();
-// 		Map<String, Object> dataMap = new HashMap<String, Object>();
+//      static FileInputStream fis;
+// 	static Workbook workbook;
+// 	static Sheet sheet;
+// 	static Map<String, Map<String, Object>> excelFileMap = new HashMap<String, Map<String,Object>>();
+// 	static Map<String, Object> dataMap = new HashMap<String, Object>();
+	
+// 	public static void loadExcel(String path)  {	
+// 		try {
+// 			fis = new FileInputStream(path);
+// 			workbook = new HSSFWorkbook(fis);
+// 			sheet = workbook.getSheetAt(0);
+// 			fis.close();
+// 		} catch (FileNotFoundException e) {
+// 			e.printStackTrace();
+// 		} catch (IOException e) {
+// 			e.printStackTrace();
+// 		}	
+// 	}
+// 	public static Map<String,  Map<String, Object>> setMapData(String path) throws IOException {
+// 		loadExcel(path);
 // 		DataFormatter formatter = new DataFormatter();
 // 		  int rowCount = sheet.getLastRowNum(); 
 // 		    for(int i=1;i<=rowCount;i++){
@@ -69,6 +83,7 @@ public class ReadFromExcel {
 // 		    }
 // 		return excelFileMap;
 // 		}
+//----------------------------------------------------------------------------------------------------------------------------------//
 // 	 Map<String, Object> m = ReadFromExcel.setMapData(path).get("DataSheet");  
 //---------------------------------------------Reading a excel store in a map ------------------------------------------------------//
 
